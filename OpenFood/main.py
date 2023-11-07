@@ -2,7 +2,7 @@ import requests
 from dto.FoodDto import FoodDto
 
 
-def openfoodfacts(barcode: str) -> FoodDto:
+def QueryBarcode(barcode: str) -> FoodDto:
     response = requests.get(
         f"https://world.openfoodfacts.org/api/v3/product/{barcode}.json"
     )

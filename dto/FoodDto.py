@@ -1,11 +1,13 @@
+from typing import List
+
 class FoodDto:
     Error: str
     Image: str
     Barcode: str
     Name: str
-    Categories: list[str]
-    EN_categories: list[str]
-    Ingredients: list[str]
+    Categories: List[str]
+    EN_categories: List[str]
+    Ingredients: List[str]
     Packaging: str
 
     def __init__(

@@ -25,13 +25,17 @@ To use this barcode parser, follow these steps:
 
 2. Open a terminal and navigate to the project directory.
 
-3. Run the parser with a barcode as an argument:
+3. Install the module:
+
+   ```(bash)
+   pip install .
+   ```
+
+3.1 You can still use the module as standalone. Just go inside OpenFood dir and run
 
    ```(bash)
    python main.py
    ```
-
-4. The tool will query OpenFoodFacts and display information about the product associated with the given barcode.
 
 ## Installation
 

@@ -26,7 +26,7 @@ def openfoodfacts(barcode: str) -> FoodDto:
 
 def main():
     parsedDTO = openfoodfacts(input("Enter a product barcode: "))
-    print(parsedDTO.toString())
+    print(parsedDTO)
 
 
 if __name__ == "__main__":

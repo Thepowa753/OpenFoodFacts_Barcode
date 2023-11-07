@@ -31,7 +31,7 @@ class FoodDto:
         self.Packaging = Packaging
         self.Error = Error
 
-    def toString(self):
+    def __str__(self):
         return (
             f"Barcode: {self.Barcode}"
             + (f"\nName: {self.Name}" if self.Name is not None else "")
